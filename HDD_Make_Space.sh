@@ -15,5 +15,4 @@ find -type d -mtime +13 -exec rm -rf {} +
 
 # Restart Radar
 cd /home/radar/borealis/scripts/
-python3.9 steamed_hams.py normalscan release common
-screen -r borealis
+sh start_radar.sh
